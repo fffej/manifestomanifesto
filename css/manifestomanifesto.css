@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+.some {
+    font-weight: bold;
+}
+
+.more {
+    font-weight: bold;
+}
+
+body {
+    padding: 1em 1em 1em 1em;
+    background-color: silver;
+}
+
+#content {
+    padding: 0em 3em 3em 3em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 1em 0;
+}
