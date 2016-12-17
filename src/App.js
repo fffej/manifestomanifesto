@@ -1,19 +1,41 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './App.css';
 
-class App extends Component {
+class App extends Component {  
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+	    <div className="App">
+
+            <div className="App-header">
+              <h2>Manifesto-as-a-Service</h2>
+            </div>
+	    
+	    <Tabs>
+	      <TabList>
+	        <Tab>Live Demo</Tab>
+	        <Tab>Pricing</Tab>
+	        <Tab>About Us</Tab>
+	      </TabList>
+
+              <TabPanel>
+  	        <h1>Live Demo</h1>
+              </TabPanel>
+
+	    <TabPanel>
+	    <h1>Pricing</h1>
+	    </TabPanel>
+
+	    <TabPanel>
+	    <h1>About Us</h1>
+	    </TabPanel>
+	    </Tabs>
+	
+	    <p className="footer">
+   	      Please cite <a href="http://www.twitter.com/fffej">@fffej</a> in mentions
+            </p>
+
+	    </div>
     );
   }
 }
