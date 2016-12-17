@@ -1,5 +1,5 @@
 {
-  "name": "foo",
+  "name": "Manifesto-as-a-Service",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "react-tabs": "^0.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
