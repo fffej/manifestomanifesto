@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './App.css';
+import banner from './banner.png';
 
 class App extends Component {  
   render() {
@@ -8,31 +9,32 @@ class App extends Component {
 	    <div className="App">
 
             <div className="App-header">
-              <h2>Manifesto-as-a-Service</h2>
+              <img src={banner} class="App-banner" alt="Banner logo" />
             </div>
 	    
-	    <Tabs>
-	      <TabList>
-	        <Tab>Live Demo</Tab>
-	        <Tab>Pricing</Tab>
-	        <Tab>About Us</Tab>
-	      </TabList>
+	    <div>
+              <h1>Manifesto-as-a-Service</h1>
 
-              <TabPanel>
-  	        <h1>Live Demo</h1>
-              </TabPanel>
+	      <p>We're developing better ways of developing manifestos by automating the process of writing and generating manifestos. By creating a manifesto using our service, we believe you can create and drive new certification industries and pulpits to preach from.</p>
 
-	    <TabPanel>
-	    <h1>Pricing</h1>
-	    </TabPanel>
+<ul>
+<li>Whilst there is value in being able to do, we find there is more value in being able to talk.</li>
+<li>Whilst there is value in being able to talk there is more value in pontification.</li>
+<li>Whilst there is value in pontification, there is more value in giving it a catchy name.</li>
+<li>Whilst there is value in a catchy name, there is more value in marketing the book.</li>
+<li>Whilst there is value in the book there is greater value in the consulting business around the book.</li>
+<li>Whilst there is value in the consulting business there is more value in a pyramid certification scheme.</li>
+<li>Whilst there is value in the pyramid certification scheme there is more value in licensed competitive franchises.</li>
+</ul>
 
-	    <TabPanel>
-	    <h1>About Us</h1>
-	    </TabPanel>
-	    </Tabs>
-	
+            <p>Please contact our <a href="mailto:sales@manifestomanifesto.org">Enterprise Sales Team</a> to discuss licensing our Manifesto technology to leverage the synergies in your business.</p>
+
+            <p>If you are interested in providing seed capital to allow us to complete our vision, please contact our <a href="mailto:jeff@manifestomanifesto.org">CEO</a> to discuss terms.</p>
+
+	    </div>
+
 	    <p className="App-footer">
-   	      Please cite <a href="http://www.twitter.com/fffej">@fffej</a> in mentions
+   	      Please cite <a href="https://www.twitter.com/fffej">@fffej</a> in mentions
             </p>
 
 	    </div>

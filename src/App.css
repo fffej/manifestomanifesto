@@ -1,12 +1,18 @@
 .App {
+}
+
+.App-banner {
+    display: block;
+    margin: 0 auto;
     text-align: center;
 }
 
 .App-header {
     background-color: #62D;
-    height: 60px;
+    height: 160px;
     padding: 20px;
-    color: white;   
+    color: white;
+    text-align: center;
 }
 
 .App-footer {
