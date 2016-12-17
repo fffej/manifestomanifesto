@@ -31,7 +31,7 @@ class App extends Component {
 	    </TabPanel>
 	    </Tabs>
 	
-	    <p className="footer">
+	    <p className="App-footer">
    	      Please cite <a href="http://www.twitter.com/fffej">@fffej</a> in mentions
             </p>
 
