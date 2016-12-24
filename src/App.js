@@ -4,11 +4,13 @@ import './App.css';
 import banner from './banner.png';
 
 class App extends Component {  
-  render() {
-    return (
-	    <div className="App">
+    render() {
 
-            <div className="App-header">
+	document.title="Manifesto as a Service";
+	
+      return (
+	    <div className="App"> 
+           <div className="App-header">
               <img src={banner} class="App-banner" alt="Banner logo" />
             </div>
 	    
@@ -33,11 +35,8 @@ class App extends Component {
 
 	    </div>
 
-	    <p className="App-footer">
-   	      Please cite <a href="https://www.twitter.com/fffej">@fffej</a> in mentions
-            </p>
-
-	    </div>
+	    <p className="App-footer">Please cite <a href="https://www.twitter.com/fffej">@fffej</a> in mentions.</p>
+</div>
     );
   }
 }
