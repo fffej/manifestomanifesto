@@ -29,8 +29,6 @@ class App extends Component {
 <li>Whilst there is value in the pyramid certification scheme there is more value in licensed competitive franchises.</li>
 </ul>
 
-            <p>Please contact our <a href="mailto:sales@manifestomanifesto.org">Enterprise Sales Team</a> to discuss licensing our Manifesto technology to leverage the synergies in your business.</p>
-
             <p>If you are interested in providing seed capital to allow us to complete our vision, please contact our <a href="mailto:jeff@manifestomanifesto.org">CEO</a> to discuss terms.</p>
 
 	    </div>
