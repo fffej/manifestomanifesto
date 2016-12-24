@@ -1,4 +1,6 @@
-class BuildManifestoForm extends React.Component {
+import React, { Component } from 'react';
+
+export default class BuildManifestoForm extends React.Component {
     constructor(props) {
 	super(props);
 	this.state = {value: ''};
