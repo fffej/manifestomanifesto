@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './App.css';
 import banner from './banner.png';
 import BuildManifestoForm from './BuildManifestoForm.js';
