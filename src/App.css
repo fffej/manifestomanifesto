@@ -23,3 +23,8 @@
     bottom: 0px;
     width: 100%;
 }
+
+.App-form {
+    background-color: #123456;
+    display: block;    
+}

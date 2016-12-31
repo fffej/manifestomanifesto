@@ -15,14 +15,18 @@ class App extends Component {
               <div className="App-header">
               <img src={banner} class="App-banner" alt="Banner logo" />
               </div>
+  
+	      <div>
+              <h1>Manifesto-as-a-Service</h1>
 
+	      <p><b>Every</b> successful movement these days needs a manifesto. <b>Manifesto-as-a-Service</b> is built to empower change agents, money makers and training partners to create a successful manifesto-based ecosystem.</p>.
+
+	      <p>Fill in the details below to generate the necessary details to launch your movement.</p>
+	  
 	      <div className="App-form">
 	      <BuildManifestoForm />
 	      </div>
-	  
-	      <div>
-              <h1>Manifesto-as-a-Service</h1>
-              <p>If you are interested in providing seed capital to allow us to complete our vision, please contact our <a href="mailto:jeff@manifestomanifesto.org">CEO</a> to discuss terms.</p>
+
 	      </div>
 
 	      <p className="App-footer">Please cite <a href="https://www.twitter.com/fffej">@fffej</a> in mentions.</p>
