@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './BuildManifestoForm.css';
+var Snap = require('snapsvg-cjs');
 
 export default class BuildManifestoForm extends React.Component {
     constructor(props) {
@@ -21,20 +23,30 @@ export default class BuildManifestoForm extends React.Component {
     }
 
     handleSubmit(event) {
-	alert('Do something clever here.');
+	var s = Snap('#BuildManifestoForm-svgOutput');
+	if (!s) alert('du');
+	
+	var bigCircle = s.circle(150, 150, 100);
+	
 	event.preventDefault();
     }
 
     // Yes, I'll make this line up proper when I can be arsed
     render() {
-	return (
+	return (<div className="BuildManifestoForm">
 		<form onSubmit={this.handleSubmit}>
 		<label>Manifesto For:<input type="text" value={this.state.name} onChange={this.handleChange} /></label>
 		<br />
 		<label>Your Manifesto:<textarea value={this.state.blurb} onChange={this.handleChange} /></label>
 		<br />
-		<input type="submit" value="Generate" />
+		<input type="submit" value="Generate" />		
 		</form>
+
+	        <div className="BuildManifestoForm-output">
+		<svg id="BuildManifestoForm-svgOutput">
+		</svg>
+		</div>
+		</div>
 	);
     }
 }

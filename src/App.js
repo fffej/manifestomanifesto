@@ -5,7 +5,6 @@ import BuildManifestoForm from './BuildManifestoForm.js';
 
 class App extends Component {  
     render() {
-
 	document.title="Manifesto as a Service";
 	
       return (
